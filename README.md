@@ -1,4 +1,3 @@
-# Stock-Analysis-with-ConCall
 # ConCallSense
 
 An autonomous AI-driven financial research engine engineered to ingest Indian listed company (NSE/BSE) earnings conference call transcripts, extract quantitative forward-looking management guidance, and enable natural language analytics via local Text-to-SQL.
