@@ -1,0 +1,35 @@
+{
+  "management_sentiment_score": 0.95,
+  "capex_summary": null,
+  "key_headwinds": [
+    "ECL norms effective April 2027 may impact balance sheet strength",
+    "Uncertainty around future regulatory changes",
+    "Industry growth rate remains below TMB's performance"
+  ],
+  "guidance_items": [
+    {
+      "metric_type": "EBITDA_MARGIN",
+      "target_value": 18.5,
+      "target_unit": "%",
+      "target_period": "FY27",
+      "verbatim_quote": "We expect EBITDA margin to remain stable at 18.5%.",
+      "confidence_score": 0.8
+    },
+    {
+      "metric_type": "REVENUE",
+      "target_value": 12000.0,
+      "target_unit": "crores",
+      "target_period": "H1 FY27",
+      "verbatim_quote": "Revenue is projected to reach INR 12,000 crores in H1 FY27.",
+      "confidence_score": 0.8
+    },
+    {
+      "metric_type": "CAPEX",
+      "target_value": 800.0,
+      "target_unit": "crores",
+      "target_period": "FY27",
+      "verbatim_quote": "We plan to invest INR 800 crores in capital expenditure in FY27.",
+      "confidence_score": 0.8
+    }
+  ]
+}
