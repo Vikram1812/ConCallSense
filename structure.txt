@@ -1,0 +1,22 @@
+concallsense/
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # FastAPI entry point
+│   ├── config.py            # Environment variables & settings
+│   ├── database.py          # SQLAlchemy engine & session setup
+│   ├── models.py            # SQLAlchemy ORM + pgvector models
+│   ├── schemas.py           # Pydantic v2 validation & LLM schemas
+│   ├── ingestion/
+│   │   ├── pdf_parser.py    # PyMuPDF / pdfplumber text extraction
+│   │   └── chunker.py       # Regex speaker & section splitter
+│   ├── agents/
+│   │   ├── extractor.py     # Guidance & CapEx extraction agent
+│   │   ├── evaluator.py     # Cross-quarter variance & reliability scorer
+│   │   └── text_to_sql.py   # Read-only SQL generator & validator
+│   └── api/
+│       └── routes.py        # REST endpoints
+├── data/
+│   └── sample_pdfs/         # Drop 2-3 NSE/BSE concall PDFs here
+├── tests/
+├── .env
+└── requirements.txt
