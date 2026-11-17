@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# Intermediate Parsed JSON / Local test files
+extracted_concall_int*.json
+parsed_concall_outp*.json
+
+# Data directory (keep structure, ignore large PDFs)
+data/samples/*.pdf
+!data/samples/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
